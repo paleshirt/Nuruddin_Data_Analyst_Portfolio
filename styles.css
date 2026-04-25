@@ -215,9 +215,9 @@ a {
 
 /* Profile photo styling */
 .profile-photo-wrapper {
-  width: clamp(180px, 22vw, 260px);
-  height: clamp(180px, 22vw, 260px);
-  margin: 0 auto 24px;
+  width: clamp(165px, 20vw, 235px);
+  height: clamp(165px, 20vw, 235px);
+  margin: 0 auto 22px;
   position: relative;
 }
 
