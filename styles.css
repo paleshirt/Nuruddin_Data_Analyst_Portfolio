@@ -217,7 +217,8 @@ a {
 .profile-photo-wrapper {
   width: clamp(165px, 20vw, 235px);
   height: clamp(165px, 20vw, 235px);
-  margin: 0 0 22px clamp(52px, 8vw, 120px);
+  margin: 0 0 22px clamp(8px, 2vw, 28px);
+  transform: translateX(-80px);
   position: relative;
 }
 
@@ -944,6 +945,7 @@ a {
 
   .profile-photo-wrapper {
     margin: 0 auto 22px;
+    transform: none;
   }
 }
 
